@@ -1,0 +1,36 @@
+baseURL: ""
+languageCode: en-us
+title: Edo try chestuna, final output yela untundo
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Ttile: "Hello Stranger"
+    Content: Welcome to my blog, Inka em pani lekapothe site navigate chesi review cheppu
+  socialIcons:
+      - name: facebook
+        url: "https://facebook.com/"
+      - name: twitter
+        url: "https://twitter.com/"
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
